@@ -1,6 +1,6 @@
 <template>
-  <AppThemeSwitcher />
-  <div class="text-center">
-    <h1 class="text-2xl">Hello, Abhishek</h1>
-  </div>
+  <NuxtLayout>
+    <NuxtLoadingIndicator :height="2" :duration="1000" :throttle="0" />
+    <NuxtPage />
+  </NuxtLayout>
 </template>
