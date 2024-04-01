@@ -3,13 +3,14 @@
         <header class="my-4 py-4">
             <UContainer class="flex flex-row gap-x-4 justify-between py-0 md:p-2 items-center mt-2">
                 <div>
-                    <NuxtLink to="/">Brand Icon</NuxtLink>
+                    <NuxtLink to="/" class="text-sm md:text-md font-bold tracking-widest ">&lt;Abhishek Aligh/&gt;
+                    </NuxtLink>
                 </div>
                 <nav v-motion-pop class="hidden md:inline-block">
                     <ul class="flex flex-row gap-6 text-gray-500 dark:text-gray-400">
                         <li v-for="link in navLinks">
                             <NuxtLink class="hover:text-gray-700 dark:hover:text-gray-100"
-                                activeClass="text-black dark:text-white underline" :to="link.href">{{ link.label
+                                activeClass="text-black dark:text-white underline underline-offset-8" :to="link.href">{{ link.label
                                 }}
                             </NuxtLink>
                         </li>
@@ -23,7 +24,7 @@
                                 <nav>
                                     <ul class="flex flex-col gap-y-1">
                                         <NuxtLink v-for="link in navLinks" @click="close"
-                                            active-class="bg-slate-200 dark:bg-slate-700"
+                                            active-class="bg-gray-200 dark:bg-gray-800"
                                             class="hover:text-gray-700 dark:hover:text-gray-100 rounded-md p-2 w-full"
                                             :to="link.href">
                                             <li>{{ link.label }}</li>
