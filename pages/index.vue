@@ -6,7 +6,7 @@
             <p class="text-gray-500 text-lg dark:text-gray-400">Software Engineer & Creator</p>
         </div>
         <div>
-            <UAvatar size="3xl" src="/images/myAvatar.png" alt="AA" class="bg-gray-200" />
+            <UAvatar size="3xl" src="/images/myAvatar.png" alt="AA" class="bg-gray-200 dark:bg-slate-700" />
         </div>
     </div>
 
