@@ -1,12 +1,12 @@
 <template>
-    <header class="my-4 py-4 sticky top-0 z-10 bg-white  dark:bg-black">
+    <header class="my-4 sticky top-0 z-10 bg-white  dark:bg-black">
         <UContainer class="flex flex-row gap-x-4 justify-between py-0 md:p-2 items-center mt-2">
             <div>
-                <NuxtLink to="/" class="text-sm md:text-md font-bold tracking-widest ">&lt;Abhishek Aligh/&gt;
+                <NuxtLink to="/" class="text-sm md:text-md font-semibold tracking-widest ">&lt;••/&gt;
                 </NuxtLink>
             </div>
             <nav class="hidden md:inline-block">
-                <ul class="flex flex-row gap-6 text-gray-500 dark:text-gray-400">
+                <ul class="flex flex-row gap-6 text-gray-500 dark:text-gray-400 text-sm">
                     <li v-for="link in navLinks">
                         <NuxtLink class="hover:text-gray-700 dark:hover:text-gray-100"
                             activeClass="text-black dark:text-white underline underline-offset-8" :to="link.href">{{

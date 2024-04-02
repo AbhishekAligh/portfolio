@@ -1,11 +1,3 @@
 <template>
-    <div>
-        <h1>Blog Page</h1>
-    </div>
+    <PageTitle title="Blog" subTitle="Posts about code, design, more ..." />
 </template>
-
-<script setup lang="ts">
-
-</script>
-
-<style scoped></style>

@@ -1,3 +1,3 @@
 <template>
-    <h1>Gears Page</h1>
+    <PageTitle title="Gear" subTitle="My Toolbox" />
 </template>

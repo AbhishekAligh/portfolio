@@ -1,9 +1,6 @@
 <template>
     <section className="flex  flex-col gap-y-8">
-        <div>
-            <h1 class="text-3xl font-bold tracking-wide mb-1">Abhishek Aligh</h1>
-            <p class="text-gray-500 text-lg dark:text-gray-400">Software Engineer & Creator</p>
-        </div>
+        <PageTitle title="Abhishek Aligh" subTitle="Software Engineer & Creator" />
         <div class="flex flex-row gap-x-6">
             <UAvatar size="3xl" src="/images/myAvatar.png" alt="AA" class="bg-gray-200 dark:bg-slate-700" />
             <ul class="flex flex-col gap-y-2 text-gray-500 dark:text-gray-400">
@@ -21,7 +18,8 @@
                         LinkedIn
                     </li>
                 </NuxtLink>
-                <NuxtLink to="https://twitter.com/abhishekaligh" target="_blank" class="hover:text-blue-400 dark:hover:text-gray-200">
+                <NuxtLink to="https://twitter.com/abhishekaligh" target="_blank"
+                    class="hover:text-blue-400 dark:hover:text-gray-200">
                     <li class="flex flex-row gap-x-2">
                         <UIcon name="mdi:twitter" dynamic size="1.5em" />
                         Twitter

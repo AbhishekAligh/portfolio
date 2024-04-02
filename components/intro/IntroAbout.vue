@@ -1,6 +1,6 @@
 <template>
     <section>
-        <p class="max-w-lg text-lg text-gray-900 dark:text-gray-100">
+        <p class="max-w-lg text-md text-gray-900 dark:text-gray-100">
             Hi there, I'm, a programmer who loves building new things. In addition to coding, I also make YouTube
             videos, where I focus on tech, creative vlogging, and personal development.
         </p>
