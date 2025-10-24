@@ -1,6 +1,10 @@
+# Root package
+packages:
+  - '.'  # This points to the root directory
+
 ignoredBuiltDependencies:
-  - '@parcel/watcher'
-  - '@tailwindcss/oxide'
+  - "@parcel/watcher"
+  - "@tailwindcss/oxide"
   - esbuild
   - unrs-resolver
   - vue-demi
