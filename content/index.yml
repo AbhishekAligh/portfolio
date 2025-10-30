@@ -4,10 +4,7 @@ seo:
 title: "Hey, I'm Abhishek Aligh Full Stack Developer"
 description: "I craft intuitive digital experiences where design meets functionality. Based in India, bringing ideas to life through code and creativity."
 hero:
-  links:
-    - label: "Use this template"
-      to: https://github.com/nuxt-ui-templates/portfolio
-      color: "neutral"
+  links: []
   images:
     - src: /hero/random-1.avif
       alt: Random Image 1
