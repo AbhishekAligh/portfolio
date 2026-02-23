@@ -1,50 +1,50 @@
 export default defineAppConfig({
   global: {
     picture: {
-      dark: "/headshot.jpg",
-      light: "/headshot.jpg",
-      alt: "My profile picture",
+      dark: '/headshot.jpg',
+      light: '/headshot.jpg',
+      alt: 'My profile picture'
     },
-    meetingLink: "https://cal.com/abhishek-aligh",
-    email: "abhishek.aligh@gmail.com",
-    available: true,
+    meetingLink: 'https://cal.com/abhishek-aligh',
+    email: 'abhishek.aligh@gmail.com',
+    available: true
   },
   ui: {
     colors: {
-      primary: "blue",
-      neutral: "neutral",
+      primary: 'blue',
+      neutral: 'neutral'
     },
     pageHero: {
       slots: {
-        container: "py-18 sm:py-24 lg:py-32",
-        title: "mx-auto max-w-xl text-pretty text-3xl sm:text-4xl lg:text-5xl",
+        container: 'py-18 sm:py-24 lg:py-32',
+        title: 'mx-auto max-w-xl text-pretty text-3xl sm:text-4xl lg:text-5xl',
         description:
-          "mt-2 text-md mx-auto max-w-2xl text-pretty sm:text-md text-muted",
-      },
-    },
+          'mt-2 text-md mx-auto max-w-2xl text-pretty sm:text-md text-muted'
+      }
+    }
   },
   footer: {
     credits: `Built with Nuxt UI • © ${new Date().getFullYear()}`,
     colorMode: false,
     links: [
       {
-        icon: "i-simple-icons-linkedin",
-        to: "https://linkedin.com/in/abhishek-aligh",
-        target: "_blank",
-        "aria-label": "Abhishek Aligh on LinkedIn",
+        'icon': 'i-simple-icons-linkedin',
+        'to': 'https://linkedin.com/in/abhishek-aligh',
+        'target': '_blank',
+        'aria-label': 'Abhishek Aligh on LinkedIn'
       },
       {
-        icon: "i-simple-icons-x",
-        to: "https://x.com/abhishekaligh",
-        target: "_blank",
-        "aria-label": "Abhishek Aligh on X",
+        'icon': 'i-simple-icons-x',
+        'to': 'https://x.com/abhishekaligh',
+        'target': '_blank',
+        'aria-label': 'Abhishek Aligh on X'
       },
       {
-        icon: "i-simple-icons-github",
-        to: "https://github.com/abhishekaligh",
-        target: "_blank",
-        "aria-label": "Abhishek Aligh on GitHub",
-      },
-    ],
-  },
-});
+        'icon': 'i-simple-icons-github',
+        'to': 'https://github.com/abhishekaligh',
+        'target': '_blank',
+        'aria-label': 'Abhishek Aligh on GitHub'
+      }
+    ]
+  }
+})
